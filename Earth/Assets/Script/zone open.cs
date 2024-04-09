@@ -17,7 +17,7 @@ public class zoneopen : MonoBehaviour
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
-        { // if left button pressed...
+        {
             Ray ray = camera.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
             if (Physics.Raycast(ray, out hit))
@@ -25,9 +25,5 @@ public class zoneopen : MonoBehaviour
                 zone.SetActive(true);
             }
         }
-    }
-
-    private void OnMouseDown()
-    {
     }
 }

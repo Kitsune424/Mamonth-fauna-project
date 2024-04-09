@@ -20,7 +20,7 @@ m_EmbeddedPackageManifests:
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: D:/Project's line/2. Devolopment/GitRepos/Mamonth-fauna-project/Earth/Packages
-m_EditorVersion: 2023.2.16f1 (7f45223012db)
+m_EditorVersion: 2023.2.17f1 (396a1c6fe404)
 m_ResolvedPackages:
 - packageId: com.unity.2d.sprite@1.0.0
   testable: 0
