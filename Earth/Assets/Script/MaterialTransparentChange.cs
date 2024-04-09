@@ -25,8 +25,9 @@ public class MaterialTransparentChange : MonoBehaviour
         {
             Earth_now.color = transparent;
             Earth_gp.color = notransparent;
-            buttonText.text = "Земля в ледниковый период";
+            buttonText.text = "Ледниковый пероид";
         }
+
         else
         {
             Earth_now.color = notransparent;
