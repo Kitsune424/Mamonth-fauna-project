@@ -8,10 +8,8 @@ public class MaterialTransparentChange : MonoBehaviour
 {
     [SerializeField] public Button button;
     [SerializeField] public TextMeshProUGUI buttonText;
-    [SerializeField] public Material Earth_now;
-    [SerializeField] public Material Earth_gp;
-    public Color transparent;
-    public Color notransparent;
+    [SerializeField] public GameObject Earth_now;
+    [SerializeField] public GameObject Earth_gp;
 
     // Start is called before the first frame update
     void Start() { }
@@ -23,15 +21,15 @@ public class MaterialTransparentChange : MonoBehaviour
     {
         if (buttonText.text == "Земля в наше время")
         {
-            Earth_now.color = transparent;
-            Earth_gp.color = notransparent;
+            Earth_gp.SetActive(false);
+            Earth_now.SetActive(true);
             buttonText.text = "Ледниковый пероид";
         }
 
         else
         {
-            Earth_now.color = notransparent;
-            Earth_gp.color = transparent;
+            Earth_gp.SetActive(true);
+            Earth_now.SetActive(false);
             buttonText.text = "Земля в наше время";
         }
     }
