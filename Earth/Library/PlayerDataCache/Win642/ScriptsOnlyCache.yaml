@@ -37,7 +37,6 @@ ScriptsOnlyBuild:
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
-    - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.CommandLineTest.RunData
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
@@ -556,7 +555,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 29976}
     - Class: 114
-      Script: {instanceID: 36762}
+      Script: {instanceID: 33030}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1727,4 +1726,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/SampleScene.unity
   - Assets/Scenes/mapTest.unity
   - Assets/Scenes/testTest.unity
-  playerPath: D:/Project's line/2. Devolopment/GitRepos/Build/Build/Earth.exe
+  playerPath: D:/Project's line/2. Devolopment/GitRepos/Build/Earth.exe
